@@ -1,0 +1,193 @@
+@CHARSET "ISO-8859-1";
+html {
+	height: 100%; 
+	padding-bottom: 2px;
+}
+body {
+	font-size: 0.8em; 
+	color:#345; 
+	font-family:arial,sans-serif;
+}
+
+a {
+	color: #06A;
+}
+a:hover {
+	color: #036;
+}
+
+p {
+	margin: 2px 0 8px;
+}
+
+h1 {
+	font-size: 1.8em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1em;
+}
+
+h1,h2,h3 {margin: 2px 0;}
+
+h2 a {text-decoration: none;}
+
+fieldset {
+	padding: 12px 10px; 
+	background: #EFE; 
+	color: #232; 
+	border: 1px solid #DED; 
+	margin-bottom: 1em;
+}
+legend {
+	font-family:serif;
+	font-weight:bold;
+	padding: 0 6px; 
+	color: #363333;
+}
+
+blockquote {
+	background: #F9F9F9 url('img/quote.gif') no-repeat;
+	border-bottom: 1px solid #EAEAEA;
+	border-top: 1px solid #EAEAEA;
+	color: #555;
+	display: block;
+	font: normal 1em sans-serif;
+	margin: 1em 0;
+	padding: 0.6em 1em 0.2em 40px;
+}
+
+code {
+	display: block;
+	background: #FFFFF6;
+	border: 1px solid #EED;
+	padding: 5px 10px;
+	overflow: auto;
+	margin: 1em 0;
+}
+
+#login {
+	padding:10px;
+	margin-left:290px;
+	display:block;
+	width:30%;	
+	text-align: right;	
+		
+}
+
+#login label {
+	margin-top:0.2em;
+	float:left;
+	width:105px;
+	vertical-align: bottom;
+}
+
+
+#cadastro {
+	padding:10px;
+	margin-left:190px;
+	display:block;
+	width:60%;	
+	text-align: left;	
+	
+}
+
+#cadastro label {
+	float:left;
+	width:112px;
+	margin-top:0.2em;
+}
+
+
+
+
+textarea {
+	width: 550px;
+	height: 250px;
+	font-size:small;
+}
+
+
+#conteudo {
+	width: 960px; 
+	margin: 0 auto; 
+	padding-bottom: 0.5em;
+}
+
+#top {
+	margin: 0.8em;
+}
+
+#site_titulo {
+	font: bold 1.2em Verdana,sans-serif; 
+	color: blue;
+}
+#site_descricao {
+	font: normal 1em sans-serif; 
+	color: #999;
+}
+
+/* topo */
+.path {
+	margin-bottom: 1em; 
+	background: #E6E8EA; 
+	border-top: 1px solid #D0D5D0; 
+	padding: 8px 10px; 
+	color: #678;
+}
+
+#nav {
+	font-size: 1.1em; 
+	text-align: right;
+}
+#nav a {
+	color: #364E6D; 
+	text-decoration: none;
+}
+#nav a:hover {
+	text-decoration: underline;
+}
+#nav ul {
+	display: inline; 
+	margin: 1;
+}
+#nav ul li {
+	display: inline; 
+	text-align:right; 
+	list-style: none; 
+	margin: 0 8px;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+.bordered {
+	border: 1px solid #DDD; 
+	background: #FFF; 
+	padding: 6px;
+}
+.clearer {
+	clear: both; font-size: 0;
+}
+.left {
+	float: left;
+}
+.light,.light a {
+	color: #FFFF8B;
+}
+.odd {
+	background: #F4B99D;
+}
+.right {
+	float: right;
+}
+.tright {
+	text-align: right;
+}
+
+.tcenter {
+	text-align: center;
+}
